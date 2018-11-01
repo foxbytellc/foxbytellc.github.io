@@ -144,6 +144,7 @@ body, html
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 2px 20px #000000;
+  background-color: #282b2d;
 }
 
 #intro_container
@@ -298,6 +299,7 @@ body, html
   background-size: cover;
   box-shadow: 0px 2px 20px #000000;
   border-top: 1px solid #f1a91f;
+  background-color: #282b2d;
 }
 
 #works
@@ -725,6 +727,7 @@ body, html
   border-top: 1px solid #f1a91f;
   border-bottom: 1px solid #f1a91f;
   margin-bottom: 460px;
+  background-color: #282b2d;
 }
 
 #design
