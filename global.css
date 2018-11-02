@@ -40,6 +40,21 @@ body, html
   padding-bottom: 10px;
 }
 
+#txt_link
+{
+  font-size: 14px;
+  position: relative;
+  text-align: left;
+  margin-top: 34px;
+  padding-bottom: 10px;
+  color: inherit;
+}
+
+#txt_link:link, :visited
+{
+  text-decoration: none;
+}
+
 #works:hover, #mining:hover, #design:hover, #contact:hover
 {
   background: #232729;
