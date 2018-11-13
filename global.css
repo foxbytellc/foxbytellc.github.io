@@ -589,7 +589,7 @@ body, html
 
 #mining_a
 {
-  background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/20171006_200339.jpg?raw=true");
+  background-image: url("miner02.jpg");
   background-size: cover;
   position: relative;
   float: left;
@@ -609,7 +609,7 @@ body, html
 
 #mining_b
 {
-  background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/mining02.png?raw=true");
+  background-image: url("miner03.png");
   background-size: cover;
   position: relative;
   float: left;
@@ -731,7 +731,7 @@ body, html
 
 .parallax_design
 {
-  background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/background02.jpg?raw=true");
+  background-image: url("bgimg02.jpg");
   height: 540px;
   /* the parallax scrolling effect */
   background-attachment: fixed;
@@ -1001,7 +1001,7 @@ body, html
 
 #social_linkedin
 {
-  background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/linkedin.png?raw=true");
+  background-image: url("linkedin.png");
   background-size: cover;
   position: relative;
   float: left;
@@ -1015,7 +1015,7 @@ body, html
 
 #social_twitter
 {
-  background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/twitter.png?raw=true");
+  background-image: url("twitter.png");
   background-size: cover;
   position: relative;
   float: left;
@@ -1029,7 +1029,7 @@ body, html
 
 #social_googleplus
 {
-  background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/googleplus.png?raw=true");
+  background-image: url("googleplus.png");
   background-size: cover;
   position: relative;
   float: left;
@@ -1043,7 +1043,7 @@ body, html
 
 #social_email
 {
-  background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/email.png?raw=true");
+  background-image: url("email.png");
   background-size: cover;
   position: relative;
   float: left;
