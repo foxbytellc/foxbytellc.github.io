@@ -456,7 +456,7 @@ body, html
 	bottom: 0;
 	margin-left: 30px;
 	margin-bottom: 20px;
-	background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/solutions1_1.png?raw=true");
+	background-image: url("solutions1_1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: inherit;
@@ -471,7 +471,7 @@ body, html
 	bottom: 0;
 	margin-left: 30px;
 	margin-bottom: 20px;
-	background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/solution02.png?raw=true");
+	background-image: url("solution02.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: inherit;
@@ -486,7 +486,7 @@ body, html
 	bottom: 0;
 	margin-left: 30px;
 	margin-bottom: 20px;
-	background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/solutions2_1.png?raw=true");
+	background-image: url("solutions2_1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: inherit;
@@ -501,7 +501,7 @@ body, html
 	bottom: 0;
 	margin-left: 30px;
 	margin-bottom: 20px;
-	background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/solutions4_1.png?raw=true");
+	background-image: url("solutions4_1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: inherit;
@@ -516,7 +516,7 @@ body, html
 	bottom: 0;
 	margin-left: 30px;
 	margin-bottom: 20px;
-	background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/solutions5_1.png?raw=true");
+	background-image: url("solutions5_1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: inherit;
@@ -531,7 +531,7 @@ body, html
 	bottom: 0;
 	margin-left: 30px;
 	margin-bottom: 20px;
-	background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/solutions6_1.png?raw=true");
+	background-image: url("solutions6_1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: inherit;
@@ -543,7 +543,7 @@ body, html
 
 .parallax_mining
 {
-  background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/background03.jpg?raw=true");
+  background-image: url("bgimg03.jpg");
   height: 600px;
   /* the parallax scrolling effect */
   background-attachment: fixed;
