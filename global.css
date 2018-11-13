@@ -151,7 +151,7 @@ body, html
 
 .parallax_intro
 {
-  background-image: url("https://i.imgur.com/AI2HZED.jpg");
+  background-image: url("bgimg01.jpg");
   height: 100%;
   /* the parallax scrolling effect */
   background-attachment: fixed;
@@ -305,7 +305,7 @@ body, html
 
 .parallax_works
 {
-  background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/background02.jpg?raw=true");
+  background-image: url("bgimg02.jpg");
   height: 600px;
   /* the parallax scrolling effect */
   background-attachment: fixed;
@@ -414,37 +414,37 @@ body, html
 #solutions_img_a:hover
 {
   opacity: 1;
-	background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/solutions1_2.png?raw=true");
+	background-image: url("solutions1_2.png");
 }
 
 #solutions_img_c:hover
 {
   opacity: 1;
-	background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/solutions2_2.png?raw=true");
+	background-image: url("solutions2_2.png");
 }
 
 #solutions_img_d:hover
 {
   opacity: 1;
-	background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/solutions4_2.png?raw=true");
+	background-image: url("solutions4_2.png");
 }
 
 #solutions_img_b:hover
 {
   opacity: 1;
-	background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/solutions01.png?raw=true");
+	background-image: url("solutions01.png");
 }
 
 #solutions_img_e:hover
 {
   opacity: 1;
-	background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/solutions5_2.png?raw=true");
+	background-image: url("solutions5_2.png");
 }
 
 #solutions_img_f:hover
 {
   opacity: 1;
-	background-image: url("https://github.com/foxbytellc/foxbytellc.com/blob/master/solutions6_2.png?raw=true");
+	background-image: url("solutions6_2.png");
 }
 
 #solutions_img_a
