@@ -1,4 +1,4 @@
-# FoxByte v.2.0
+# FoxByte v2.0
 
 # foxbytellc.github.io
 
