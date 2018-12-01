@@ -20,18 +20,20 @@ body, html
 .solutions_head
 {
   border-bottom: 1px solid #f1a91f;
+  overflow: auto;
 }
 
 .solutions_body
 {
   border-bottom: 1px solid #f1a91f;
+  overflow: auto;
 }
 
 .column
 {
   float: left;
   width: 25%;
-  border: 1px solid #f1a91f;
+  border: 1px dashed #f1a91f;
   text-align: center;
   padding: 20px
 }
