@@ -16,25 +16,24 @@ body, html
   text-decoration: none;
 }
 
-
-/* Create four equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 25%;
+.column
+{
+  float: left;
+  width: 20%;
+  border-bottom: 1px solid #f1a91f;
+  text-align: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
+@media screen and (max-width: 600px)
+{
+  .column
+  {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
 }
 
 
