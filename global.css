@@ -40,7 +40,7 @@ body, html
   padding: 20px
 }
 
-.column
+.column_body
 {
   float: left;
   width: 25%;
@@ -51,7 +51,7 @@ body, html
 
 @media screen and (max-width: 600px)
 {
-  .column, .column_head
+  .column_head, .column_body
   {
     width: 100%;
   }
