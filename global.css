@@ -21,12 +21,14 @@ body, html
 {
   border-bottom: 1px solid #f1a91f;
   overflow: auto;
+  padding: 20px;
 }
 
 .solutions_body
 {
   border-bottom: 1px solid #f1a91f;
   overflow: auto;
+  padding: 20px;
 }
 
 .column
