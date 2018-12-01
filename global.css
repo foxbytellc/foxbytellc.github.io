@@ -31,6 +31,15 @@ body, html
   padding: 20px;
 }
 
+.column_head
+{
+  float: left;
+  width: 50%;
+  border: 1px dashed #f1a91f;
+  text-align: center;
+  padding: 20px
+}
+
 .column
 {
   float: left;
@@ -42,7 +51,7 @@ body, html
 
 @media screen and (max-width: 600px)
 {
-  .column
+  .column, .column_head
   {
     width: 100%;
   }
