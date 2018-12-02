@@ -106,5 +106,12 @@ body, html
   background-color: #232729;
   font-size: 14px;
 }
+@media screen and (max-width: 600px)
+{
+  .column_a_head_a, .column_a_hea_b
+  {
+    width: 100%;
+  }
+}
 
 /*--designed and written by Joshua Manley--*/
