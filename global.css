@@ -33,7 +33,16 @@ body, html
   background-color: #232729
 }
 
-.column_head
+.column_head_a
+{
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  background-color: #232729;
+}
+
+.column_head_b
 {
   float: left;
   width: 50%;
@@ -60,5 +69,41 @@ body, html
   }
 }
 
+.text_left
+{
+  text-align: left;
+}
+
+
+
+
+
+.solutions_a_head
+{
+  border-top: 1px solid #f1a91f;
+  border-bottom: 1px solid #f1a91f;
+  overflow: auto;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #232729;
+}
+
+.column_a_head_a
+{
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  background-color: #232729;
+}
+
+.column_a_head_b
+{
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  background-color: #232729;
+}
 
 /*--designed and written by Joshua Manley--*/
