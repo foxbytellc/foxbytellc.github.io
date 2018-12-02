@@ -108,7 +108,7 @@ body, html
 }
 @media screen and (max-width: 600px)
 {
-  .column_a_head_a, .column_a_hea_b
+  .column_a_head_a, .column_a_head_b
   {
     width: 100%;
   }
