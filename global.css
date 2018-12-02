@@ -37,9 +37,9 @@ body, html
 {
   float: left;
   width: 50%;
-  border: 1px dashed #f1a91f;
   text-align: center;
-  padding: 20px
+  padding: 20px;
+  background-color: #232729;
 }
 
 .column_body
@@ -48,7 +48,8 @@ body, html
   width: 25%;
   border: 1px dashed #f1a91f;
   text-align: center;
-  padding: 20px
+  padding: 20px;
+  background-color: #282b2d;
 }
 
 @media screen and (max-width: 600px)
