@@ -17,6 +17,18 @@ body, html
   text-decoration: none;
 }
 
+.text_left
+{
+  text-align: left;
+}
+
+
+/*---------nav begin------------*/
+/*---------nav begin------------*/
+
+
+/*---------solutions begin------------*/
+
 .solutions_head
 {
   border-top: 1px solid #f1a91f;
@@ -69,14 +81,10 @@ body, html
   }
 }
 
-.text_left
-{
-  text-align: left;
-}
+/*---------solutions end------------*/
 
 
-
-
+/*---------solutions_a begin------------*/
 
 .solutions_a_head
 {
@@ -113,5 +121,136 @@ body, html
     width: 100%;
   }
 }
+
+/*---------solutions_a end------------*/
+
+
+/*---------solutions_b begin------------*/
+
+.solutions_b_head
+{
+  border-top: 1px solid #f1a91f;
+  border-bottom: 1px solid #f1a91f;
+  overflow: auto;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #232729;
+}
+
+.column_b_head_a
+{
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  background-color: #232729;
+}
+
+.column_b_head_b
+{
+  float: left;
+  width: 50%;
+  text-align: right;
+  padding: 20px;
+  background-color: #232729;
+  font-size: 14px;
+}
+@media screen and (max-width: 600px)
+{
+  .column_b_head_a, .column_b_head_b
+  {
+    width: 100%;
+  }
+}
+
+/*---------solutions_b end------------*/
+
+
+/*---------solutions_c begin------------*/
+
+.solutions_c_head
+{
+  border-top: 1px solid #f1a91f;
+  border-bottom: 1px solid #f1a91f;
+  overflow: auto;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #232729;
+}
+
+.column_c_head_a
+{
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  background-color: #232729;
+}
+
+.column_c_head_b
+{
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  background-color: #232729;
+  font-size: 14px;
+}
+@media screen and (max-width: 600px)
+{
+  .column_c_head_a, .column_c_head_b
+  {
+    width: 100%;
+  }
+}
+
+/*---------solutions_c end------------*/
+
+
+/*---------solutions_d begin------------*/
+
+.solutions_d_head
+{
+  border-top: 1px solid #f1a91f;
+  border-bottom: 1px solid #f1a91f;
+  overflow: auto;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #232729;
+}
+
+.column_d_head_a
+{
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  background-color: #232729;
+}
+
+.column_d_head_b
+{
+  float: left;
+  width: 50%;
+  text-align: right;
+  padding: 20px;
+  background-color: #232729;
+  font-size: 14px;
+}
+@media screen and (max-width: 600px)
+{
+  .column_d_head_a, .column_d_head_b
+  {
+    width: 100%;
+  }
+}
+
+/*---------solutions_d end------------*/
+
+
+/*---------footer begin------------*/
+/*---------footer end------------*/
+
+
 
 /*--designed and created by Joshua Manley--*/
