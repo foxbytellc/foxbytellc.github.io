@@ -31,7 +31,7 @@ body, html
 
 .intro_container
 {
-  background-image: url("https://i.imgur.com/AI2HZED.jpg");
+  background-image: url("https://foxbytellc.github.io/bgimg01.jpg");
   height: 100%;
   /* the parallax scrolling effect */
   background-attachment: fixed;
@@ -106,7 +106,7 @@ body, html
 
 .solutions_a_container
 {
-  background-image: url("https://i.imgur.com/AI2HZED.jpg");
+  background-image: url("https://foxbytellc.github.io/bgimg03.jpg");
   height: 100%;
   /* the parallax scrolling effect */
   background-attachment: fixed;
@@ -159,13 +159,27 @@ body, html
 
 /*---------solutions_b begin------------*/
 
+.solutions_b_container
+{
+  background-image: url("https://foxbytellc.github.io/bgimg02.jpg");
+  height: 100%;
+  /* the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2px 20px #000000;
+  animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
 .solutions_b_head
 {
+  position: absolute;
   border-top: 1px solid #f1a91f;
   border-bottom: 1px solid #f1a91f;
   overflow: auto;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 25%;
   background-color: #232729;
 }
 
@@ -200,13 +214,27 @@ body, html
 
 /*---------solutions_c begin------------*/
 
+.solutions_c_container
+{
+  background-image: url("https://foxbytellc.github.io/bgimg03.jpg");
+  height: 100%;
+  /* the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2px 20px #000000;
+  animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
 .solutions_c_head
 {
+  position: absolute;
   border-top: 1px solid #f1a91f;
   border-bottom: 1px solid #f1a91f;
   overflow: auto;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 25%;
   background-color: #232729;
 }
 
@@ -241,13 +269,27 @@ body, html
 
 /*---------solutions_d begin------------*/
 
+.solutions_d_container
+{
+  background-image: url("https://foxbytellc.github.io/bgimg02.jpg");
+  height: 100%;
+  /* the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2px 20px #000000;
+  animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
 .solutions_d_head
 {
+  position: absolute;
   border-top: 1px solid #f1a91f;
   border-bottom: 1px solid #f1a91f;
   overflow: auto;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 25%;
   background-color: #232729;
 }
 
