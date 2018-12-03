@@ -27,6 +27,24 @@ body, html
 /*---------nav begin------------*/
 
 
+/*---------intro begin------------*/
+
+.intro_container
+{
+  background-image: url("https://i.imgur.com/AI2HZED.jpg");
+  height: 100%;
+  /* the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2px 20px #000000;
+  animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
+/*---------intro end------------*/
+
+
 /*---------solutions begin------------*/
 
 .solutions_head
@@ -86,13 +104,27 @@ body, html
 
 /*---------solutions_a begin------------*/
 
+.solutions_a_container
+{
+  background-image: url("https://i.imgur.com/AI2HZED.jpg");
+  height: 100%;
+  /* the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2px 20px #000000;
+  animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
 .solutions_a_head
 {
+  position: absolute;
   border-top: 1px solid #f1a91f;
   border-bottom: 1px solid #f1a91f;
   overflow: auto;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 25%;
   background-color: #232729;
 }
 
