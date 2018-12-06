@@ -123,9 +123,8 @@ body, html
   position: absolute;
   border-top: 1px solid #f1a91f;
   border-bottom: 1px solid #f1a91f;
-  overflow: auto;
   padding: 20px;
-  margin-top: 25%;
+  margin-top: 5%;
   background-color: #232729;
 }
 
@@ -147,6 +146,7 @@ body, html
   background-color: #232729;
   font-size: 14px;
 }
+
 @media screen and (max-width: 600px)
 {
   .column_a_head_a, .column_a_head_b
