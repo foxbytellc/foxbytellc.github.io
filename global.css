@@ -120,12 +120,14 @@ body, html
 
 .solutions_a_head
 {
+  display: flex;
+  flex-wrap: wrap;
   position: absolute;
-  border-top: 1px solid #f1a91f;
-  border-bottom: 1px solid #f1a91f;
+  border: 1px solid #f1a91f;
   padding: 20px;
   margin-top: 5%;
   background-color: #232729;
+  overflow: auto;
 }
 
 .column_a_head_a
@@ -139,7 +141,7 @@ body, html
 
 .column_a_head_b
 {
-  float: left;
+  float: right;
   width: 50%;
   text-align: center;
   padding: 20px;
