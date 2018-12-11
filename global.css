@@ -424,7 +424,6 @@ body, html
 
 .footer_p
 {
-  border-top: 1px solid #f1a91f;
   padding-top: 2%;
   margin-left: 25%;
   margin-right: 25%;
@@ -433,6 +432,30 @@ body, html
 .footer_img
 {
   margin-top: 2%;
+}
+
+.social
+{
+  border-top: 1px solid #f1a91f;
+  padding-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.social_body
+{
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px)
+{
+  .social_body
+  {
+    width: 100%;
+  }
 }
 
 /*---------footer end------------*/
