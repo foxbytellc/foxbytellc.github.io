@@ -18,9 +18,9 @@ body, html
   scroll-behavior: smooth;
 }
 
-.text_left
+.p_margin
 {
-  text-align: left;
+  margin-top: 5%;
 }
 
 
@@ -199,11 +199,6 @@ body, html
 {
   transform: translate(20px,-20px);
   opacity: .4;
-}
-
-.p_margin
-{
-  margin-top: 5%;
 }
 
 @media screen and (max-width: 600px)
