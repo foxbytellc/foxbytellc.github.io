@@ -210,6 +210,11 @@ body, html
   {
     width: 100%;
   }
+
+  .layeredimage_container
+  {
+    transform: rotate(-30deg) skew(25deg) scale(.6);
+  }
 }
 
 /*---------solutions_a end------------*/
@@ -320,55 +325,6 @@ body, html
   padding-left: 10%;
   background-color: #232729;
   font-size: 14px;
-}
-
-.layeredimage_container
-{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  width: 360px;
-  height: 492px;
-  background: rgba(0,0,0,.1);
-  transform: rotate(-30deg) skew(25deg) scale(.8);
-  transition: .5s;
-}
-
-.layeredimage_container img
-{
-  position: absolute;
-  width: 75%;
-  transition: .5s;
-}
-
-.layeredimage_container img:nth-child(4)
-{
-  transform: translate(80px,-80px);
-  opacity: 1;
-}
-
-.layeredimage_container img:nth-child(3)
-{
-  transform: translate(60px,-60px);
-  opacity: .8;
-}
-
-.layeredimage_container img:nth-child(2)
-{
-  transform: translate(40px,-40px);
-  opacity: .6;
-}
-
-.layeredimage_container img:nth-child(1)
-{
-  transform: translate(20px,-20px);
-  opacity: .4;
-}
-
-.p_margin
-{
-  margin-top: 5%;
 }
 
 @media screen and (max-width: 600px)
