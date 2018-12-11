@@ -243,9 +243,9 @@ body, html
 
 .column_b_head_a
 {
-  float: left;
+  float: right;
   width: 50%;
-  text-align: center;
+  text-align: right;
   padding: 20px;
   background-color: #232729;
 }
@@ -254,7 +254,7 @@ body, html
 {
   float: left;
   width: 50%;
-  text-align: right;
+  text-align: left;
   padding: 20px;
   background-color: #232729;
   font-size: 14px;
@@ -410,9 +410,9 @@ body, html
 
 .column_d_head_a
 {
-  float: left;
+  float: right;
   width: 50%;
-  text-align: center;
+  text-align: right;
   padding: 20px;
   background-color: #232729;
 }
@@ -421,7 +421,7 @@ body, html
 {
   float: left;
   width: 50%;
-  text-align: right;
+  text-align: left;
   padding: 20px;
   background-color: #232729;
   font-size: 14px;
