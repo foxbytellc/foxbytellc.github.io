@@ -213,7 +213,7 @@ body, html
 
   .layeredimage_container
   {
-    transform: rotate(-30deg) skew(25deg) scale(.6);
+    transform: rotate(-30deg) skew(25deg) scale(.4);
   }
 }
 
