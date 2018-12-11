@@ -125,6 +125,7 @@ body, html
   border-bottom: 1px solid #f1a91f;
   padding: 20px;
   background-color: #232729;
+  overflow: hidden;
 }
 
 /* Clear floats after the columns */
@@ -148,10 +149,8 @@ body, html
   float: right;
   width: 50%;
   text-align: right;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
+  padding-left: 10%;
   background-color: #232729;
   font-size: 14px;
 }
@@ -172,29 +171,29 @@ body, html
 .layeredimage_container img
 {
   position: absolute;
-  width: 100%;
+  width: 75%;
   transition: .5s;
 }
 
-.layeredimage_container:hover img:nth-child(4)
+.layeredimage_container img:nth-child(4)
 {
   transform: translate(80px,-80px);
   opacity: 1;
 }
 
-.layeredimage_container:hover img:nth-child(3)
+.layeredimage_container img:nth-child(3)
 {
   transform: translate(60px,-60px);
   opacity: .8;
 }
 
-.layeredimage_container:hover img:nth-child(2)
+.layeredimage_container img:nth-child(2)
 {
   transform: translate(40px,-40px);
   opacity: .6;
 }
 
-.layeredimage_container:hover img:nth-child(1)
+.layeredimage_container img:nth-child(1)
 {
   transform: translate(20px,-20px);
   opacity: .4;
