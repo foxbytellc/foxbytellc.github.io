@@ -153,6 +153,7 @@ body, html
   padding-left: 10%;
   background-color: #232729;
   font-size: 14px;
+  overflow: hidden;
 }
 
 .layeredimage_container
@@ -213,7 +214,7 @@ body, html
 
   .layeredimage_container
   {
-    transform: rotate(-30deg) skew(25deg) scale(.4);
+    transform: rotate(-30deg) skew(25deg) scale(.6);
   }
 }
 
@@ -325,6 +326,7 @@ body, html
   padding-left: 10%;
   background-color: #232729;
   font-size: 14px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 600px)
