@@ -86,7 +86,7 @@ body, html
 {
   float: left;
   width: 25%;
-  border: 1px dashed #f1a91f;
+  border-top: 1px dashed #f1a91f;
   text-align: center;
   padding: 20px;
   background-color: #282b2d;
