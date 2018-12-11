@@ -145,10 +145,13 @@ body, html
 
 .column_a_head_b
 {
-  float: left;
+  float: right;
   width: 50%;
-  text-align: center;
-  padding: 20px;
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: #232729;
   font-size: 14px;
 }
@@ -195,6 +198,11 @@ body, html
 {
   transform: translate(20px,-20px);
   opacity: .4;
+}
+
+.p_margin
+{
+  margin-top: 5%;
 }
 
 @media screen and (max-width: 600px)
