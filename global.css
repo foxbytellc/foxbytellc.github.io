@@ -175,25 +175,25 @@ body, html
 
 .layeredimage_container:hover img:nth-child(4)
 {
-  transform: translate(160px,-160px);
+  transform: translate(80px,-80px);
   opacity: 1;
 }
 
 .layeredimage_container:hover img:nth-child(3)
 {
-  transform: translate(120px,-120px);
+  transform: translate(60px,-60px);
   opacity: .8;
 }
 
 .layeredimage_container:hover img:nth-child(2)
 {
-  transform: translate(80px,-80px);
+  transform: translate(40px,-40px);
   opacity: .6;
 }
 
 .layeredimage_container:hover img:nth-child(1)
 {
-  transform: translate(40px,-40px);
+  transform: translate(20px,-20px);
   opacity: .4;
 }
 
