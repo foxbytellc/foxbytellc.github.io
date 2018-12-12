@@ -25,7 +25,8 @@ body, html
 
 h2
 {
-  border-bottom: 2px solid #f1a91f;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #282b2d;
 }
 
 /*---------nav begin------------*/
