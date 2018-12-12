@@ -23,6 +23,10 @@ body, html
   margin-top: 5%;
 }
 
+h2
+{
+  border-bottom: 2px solid #f1a91f;
+}
 
 /*---------nav begin------------*/
 /*---------nav begin------------*/
