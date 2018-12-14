@@ -424,6 +424,8 @@ h2
   padding: 20px;
   background-color: #232729;
   text-align: center;
+  padding-top: 5%;
+
 }
 
 .footer_p
@@ -435,7 +437,7 @@ h2
 
 .footer_img
 {
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .social
