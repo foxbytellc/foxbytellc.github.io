@@ -71,12 +71,12 @@ h2
 
 .arrow_animate span:nth-child(1)
 {
-  animation-delay: .2s;
+  animation-delay: -.2s;
 }
 
 .arrow_animate span:nth-child(2)
 {
-  animation-delay: .4s;
+  animation-delay: -.4s;
 }
 
 @keyframes animate
@@ -84,6 +84,7 @@ h2
     0%
     {
       opacity: 0;
+      transform: rotate(45deg) translate(-20px,-20px);
     }
     50%
     {
@@ -92,6 +93,7 @@ h2
     100%
     {
       opacity: 0;
+      transform: rotate(45deg) translate(20px,20px);
     }
 }
 
