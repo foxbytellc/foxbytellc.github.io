@@ -69,6 +69,13 @@ h2
   animation: animate 2s infinite;
 }
 
+.arrow_animate a
+{
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
 .arrow_animate span:nth-child(2)
 {
   animation-delay: -.2s;
