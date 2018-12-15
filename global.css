@@ -29,6 +29,12 @@ h2
   border-bottom: 4px solid #282b2d;
 }
 
+.links
+{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 /*---------nav begin------------*/
 
 /*---------nav begin------------*/
@@ -112,7 +118,6 @@ h2
 
 .solutions_head
 {
-  border-top: 1px solid #f1a91f;
   overflow: auto;
   padding: 20px;
   background-color: #232729;
