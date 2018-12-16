@@ -476,7 +476,7 @@ h2
 .footer
 {
   overflow: auto;
-  padding: 20px;
+  padding: 5%;
   background-color: #232729;
   text-align: center;
   padding-top: 5%;
@@ -485,30 +485,28 @@ h2
 
 .footer_p
 {
-  padding-top: 2%;
+  margin-top: 5%;
   margin-left: 25%;
   margin-right: 25%;
 }
 
 .footer_img
 {
-  margin-top: 5%;
+  margin-top: 4%;
 }
 
 .social
 {
   border-top: 4px solid #282b2d;
   padding-top: 2%;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .social_body
 {
   float: left;
   width: 25%;
-  text-align: center;
-  padding: 20px;
 }
 
 @media screen and (max-width: 600px)
