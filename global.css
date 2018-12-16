@@ -29,6 +29,12 @@ h2
   border-bottom: 4px solid #282b2d;
 }
 
+.version
+{
+  padding: 2%;
+  font-size: 2vh;
+}
+
 .links
 {
   text-decoration: none;
