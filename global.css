@@ -182,6 +182,11 @@ h2
     width: 100%;
   }
 
+  .intro_container
+  {
+    height: 110%;
+  }
+
   #head_logo_img
   {
     float: left;
