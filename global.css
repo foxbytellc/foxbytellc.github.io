@@ -196,6 +196,8 @@ h2
   .logo_right
   {
     transform: scale(.8);
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   #head_logo_img
