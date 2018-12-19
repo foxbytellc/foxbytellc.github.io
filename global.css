@@ -112,30 +112,36 @@ h2
 
 #intro_txt_a
 {
+  position: relative;
   width: 340px;
   font-size: 80px;
   background-color: #282b2d;
-  transition: .2s ease;
   border-left: 1px solid #f1a91f;
   padding-bottom: 8px;
+  transition: .4s ease;
+  animation:animateright 1.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
 }
 
 #intro_txt_b
 {
+  position: relative;
   font-size: 40px;
   width: 220px;
   background-color: #282b2d;
-  transition: .2s ease;
   border-left: 1px solid #f1a91f;
+  transition: .4s ease;
+  animation:animateright 1.8s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
 }
 
 #intro_txt_c
 {
+  position: relative;
   font-size: 20px;
   width: 280px;
   background-color: #282b2d;
-  transition: .2s ease;
   border-left: 1px solid #f1a91f;
+  transition: .4s ease;
+  animation:animateright 1s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
 }
 
 #intro_txt_a:hover, #intro_txt_b:hover, #intro_txt_c:hover
