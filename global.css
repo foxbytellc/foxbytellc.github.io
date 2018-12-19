@@ -193,6 +193,11 @@ h2
     height: 110%;
   }
 
+  .logo_right
+  {
+    transform: scale(.8);
+  }
+
   #head_logo_img
   {
     float: left;
