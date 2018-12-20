@@ -197,6 +197,7 @@ h2
 
   #head_logo_img
   {
+    transform: scale(.8);
     float: left;
     opacity: .8;
     margin-left: 5%;
