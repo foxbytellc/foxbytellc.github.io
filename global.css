@@ -29,6 +29,17 @@ h2
   border-bottom: 4px solid #282b2d;
 }
 
+h4
+{
+  transition: .4s ease;
+}
+
+h4:hover
+{
+  color: #f1a91f;
+  transition: .4s ease;
+}
+
 .links
 {
   text-decoration: none;
