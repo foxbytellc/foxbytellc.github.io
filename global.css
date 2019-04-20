@@ -51,7 +51,7 @@ h4:hover
 #navbar {
   overflow: hidden;
   background-color: #282b2d;
-  z-index: 200;
+  z-index: 4;
 }
 
 .sticky {
