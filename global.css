@@ -309,6 +309,7 @@ h4:hover
   padding: 20px;
   background-color: #282b2d;
   transition: .4s ease;
+  border-top: 1px solid #282b2d;
   animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
 
@@ -318,7 +319,7 @@ h4:hover
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #f1a91f;
+  background-color: #232729;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -333,7 +334,6 @@ h4:hover
 .nav_a:hover
 {
   border-top: 1px solid #f1a91f;
-  transition: .4s ease;
 }
 
 .nav_txt
@@ -352,7 +352,7 @@ h4:hover
 .nav_a:hover .nav_txt
 {
   height: 100%;
-  color: #282b2d;
+  color: #f1a91f;
   transition: .4s ease;
 }
 
