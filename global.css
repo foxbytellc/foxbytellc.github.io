@@ -358,7 +358,7 @@ h4:hover
 
 @media screen and (max-width: 600px)
 {
-  .column_head_a, .column_head_b, .column_body
+  .column_head_a, .column_head_b, .nav_a
   {
     width: 100%;
   }
