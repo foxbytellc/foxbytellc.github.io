@@ -309,7 +309,7 @@ h4:hover
   padding: 20px;
   background-color: #282b2d;
   transition: .4s ease;
-  border-top: 1px solid #282b2d;
+  border: 1px solid #282b2d;
   animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
 
@@ -334,6 +334,7 @@ h4:hover
 
 .nav_a:hover
 {
+  border: 1px solid #282b2d;
   border-top: 1px solid #f1a91f;
 }
 
