@@ -329,6 +329,7 @@ h4:hover
 .nav_a:hover .overlay
 {
   height: 100%;
+  padding: 20px;
 }
 
 .nav_a:hover
