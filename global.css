@@ -318,7 +318,7 @@ h4:hover
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #266fd2;
+  background-color: #f1a91f;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -332,7 +332,7 @@ h4:hover
 
 .nav_a:hover
 {
-  border: 1px solid #163f78;
+  border-top: 1px solid #f1a91f;
   transition: .4s ease;
 }
 
@@ -340,8 +340,6 @@ h4:hover
 {
   position: relative;
   z-index: 100;
-  font-size: 30px;
-  color: #266fd2;
   transition: .4s ease;
 }
 
