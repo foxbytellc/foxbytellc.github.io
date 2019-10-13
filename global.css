@@ -671,7 +671,7 @@ h4:hover
 /*---------solutions_d end------------*/
 
 
-/*---------footer begin------------*/
+/*---------social begin------------*/
 
 .footer
 {
@@ -704,19 +704,88 @@ h4:hover
 
 .social_body
 {
-  float: left;
-  width: 25%;
+  position: relative;
+}
+
+.btn01
+{
+  display: inline-block;
+  width: 54px;
+  height: 54px;
+  background: #282b2d;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #000000;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #f1a91f;
+  transition: .6s ease;
+}
+
+.btn01:hover
+{
+  border: 1px solid #282b2d;
+}
+
+.btn01 img
+{
+  transition: 0.2s linear;
+}
+
+.btn01:hover img
+{
+  transform: scale(1.1);
+}
+
+.btn01::before
+{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #d35400;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+
+.btn01:hover::before
+{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+@keyframes aaa
+{
+  0%
+  {
+    left: -110%;
+    top: 90%;
+  }
+  50%
+  {
+    left: 10%;
+    top: -30%;
+  }
+  100%
+  {
+    left: -10%;
+    top: -10%;
+  }
 }
 
 @media screen and (max-width: 600px)
 {
-  .social_body
+  .social
   {
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
 
-/*---------footer end------------*/
-
+/*---------social end------------*/
 
 
 /*--designed and created by Joshua Manley--*/
