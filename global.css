@@ -60,7 +60,7 @@ h4:hover {
   animation:animatetop .4s}@keyframes animatetop{from{top:-4em;opacity:0} to{top:0;opacity:.9}
 }
 
-.sticky:hover{
+.sticky:hover {
   opacity: 1;
 }
 
