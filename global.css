@@ -93,8 +93,7 @@ h4:hover {
 
 /*---------intro begin------------*/
 
-.intro_container
-{
+.intro_container {
   background-image: url("https://foxbytellc.github.io/bgimg01.jpg");
   height: 110%;
   /* the parallax scrolling effect */
@@ -107,16 +106,14 @@ h4:hover {
   animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
 }
 
-.arrow_animate
-{
+.arrow_animate {
   position: absolute;
   top: 90%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
 
-.arrow_animate span
-{
+.arrow_animate span {
   display: block;
   width: 20px;
   height: 20px;
@@ -127,25 +124,21 @@ h4:hover {
   animation: animate 2s infinite;
 }
 
-.arrow_animate a
-{
+.arrow_animate a {
   display: block;
   width: 20px;
   height: 20px;
 }
 
-.arrow_animate span:nth-child(2)
-{
+.arrow_animate span:nth-child(2) {
   animation-delay: -.2s;
 }
 
-.arrow_animate span:nth-child(3)
-{
+.arrow_animate span:nth-child(3) {
   animation-delay: -.4s;
 }
 
-@keyframes animate
-{
+@keyframes animate {
     0%
     {
       opacity: 0;
@@ -162,8 +155,7 @@ h4:hover {
     }
 }
 
-#intro_txt_a
-{
+#intro_txt_a {
   position: relative;
   width: 340px;
   font-size: 80px;
@@ -174,8 +166,7 @@ h4:hover {
   animation:animateright 1.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
 }
 
-#intro_txt_b
-{
+#intro_txt_b {
   position: relative;
   font-size: 40px;
   width: 220px;
@@ -185,8 +176,7 @@ h4:hover {
   animation:animateright 1.8s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
 }
 
-#intro_txt_c
-{
+#intro_txt_c {
   position: relative;
   font-size: 20px;
   width: 280px;
@@ -196,8 +186,7 @@ h4:hover {
   animation:animateright 1s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
 }
 
-#intro_txt_a:hover, #intro_txt_b:hover, #intro_txt_c:hover
-{
+#intro_txt_a:hover, #intro_txt_b:hover, #intro_txt_c:hover {
   color: #282b2d;
   background: #f1a91f;
   padding-left: 20px;
@@ -205,8 +194,7 @@ h4:hover {
   border-left: 1px solid #282b2d;
 }
 
-#head_logo_img
-{
+#head_logo_img {
   float: right;
   opacity: .8;
   width: 200px;
@@ -216,14 +204,12 @@ h4:hover {
   transition: .2s ease;
 }
 
-.logo_left
-{
+.logo_left {
   width: 50%;
   float: left;
 }
 
-.logo_right
-{
+.logo_right {
   width: 50%;
   float: right;
   height: auto;
