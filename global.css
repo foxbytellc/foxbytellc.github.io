@@ -138,7 +138,8 @@ h4:hover {
   animation-delay: -.4s;
 }
 
-@keyframes animate {
+@keyframes animate
+{
     0%
     {
       opacity: 0;
