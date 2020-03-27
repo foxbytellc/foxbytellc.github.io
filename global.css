@@ -210,7 +210,8 @@ h4:hover {
   float: left;
 }
 
-.logo_right {
+.logo_right
+{
   width: 50%;
   float: right;
   height: auto;
