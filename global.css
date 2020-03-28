@@ -205,7 +205,8 @@ h4:hover {
   transition: .2s ease;
 }
 
-.logo_left {
+.logo_left
+{
   width: 50%;
   float: left;
 }
