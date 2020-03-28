@@ -195,7 +195,8 @@ h4:hover {
   border-left: 1px solid #282b2d;
 }
 
-#head_logo_img {
+#head_logo_img
+{
   float: right;
   opacity: .8;
   width: 200px;
