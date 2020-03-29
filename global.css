@@ -177,7 +177,8 @@ h4:hover {
   animation:animateright 1.8s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
 }
 
-#intro_txt_c {
+#intro_txt_c
+{
   position: relative;
   font-size: 20px;
   width: 280px;
@@ -187,7 +188,8 @@ h4:hover {
   animation:animateright 1s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
 }
 
-#intro_txt_a:hover, #intro_txt_b:hover, #intro_txt_c:hover {
+#intro_txt_a:hover, #intro_txt_b:hover, #intro_txt_c:hover
+{
   color: #282b2d;
   background: #f1a91f;
   padding-left: 20px;
