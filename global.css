@@ -1,0 +1,800 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*
+{
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+body, html
+{
+  height: 100%;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: #282b2d;
+  color: #ffffff;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+.p_margin
+{
+  margin-top: 5%;
+}
+
+h2
+{
+  padding-bottom: 20px;
+  border-bottom: 4px solid #282b2d;
+}
+
+h4
+{
+  transition: .4s ease;
+}
+
+h4:hover
+{
+  color: #f1a91f;
+  transition: .4s ease;
+}
+
+.links
+{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*---------navbar begin------------*/
+
+#navbar
+{
+  overflow: hidden;
+  background-color: #282b2d;
+  z-index: 4;
+}
+
+.sticky
+{
+  position: fixed;
+  top: 0;
+  height: 2.5em;
+  width: 100%;
+  border-bottom: 1px solid #f1a91f;
+  box-shadow: 0px 2px 20px #000000;
+  opacity: .9;
+  transition: .6s ease;
+  animation:animatetop .4s}@keyframes animatetop{from{top:-4em;opacity:0} to{top:0;opacity:.9}
+}
+
+.sticky:hover
+{
+  opacity: 1;
+}
+
+.inner
+{
+  position: absolute;
+  z-index: -2;
+  text-decoration: none;
+}
+
+.inner a
+{
+  float: left;
+  display: block;
+  color: #f1a91f;
+  text-align: center;
+  padding: 11px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 1s ease;
+}
+
+.inner a:hover
+{
+  background-color: #f1a91f;
+  color: #282b2d;
+  transition: .4s ease;
+}
+
+/*---------navbar end------------*/
+
+
+/*---------intro begin------------*/
+
+.intro_container
+{
+  background-image: url("https://foxbytellc.github.io/bgimg01.jpg");
+  height: 110%;
+  /* the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2px 20px #000000;
+  padding-top: 5%;
+  animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
+.arrow_animate
+{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.arrow_animate span
+{
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.arrow_animate a
+{
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.arrow_animate span:nth-child(2)
+{
+  animation-delay: -.2s;
+}
+
+.arrow_animate span:nth-child(3)
+{
+  animation-delay: -.4s;
+}
+
+@keyframes animate
+{
+    0%
+    {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%
+    {
+      opacity: 1;
+    }
+    100%
+    {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+#intro_txt_a
+{
+  position: relative;
+  width: 340px;
+  font-size: 80px;
+  background-color: #282b2d;
+  border-left: 1px solid #f1a91f;
+  padding-bottom: 8px;
+  transition: .4s ease;
+  animation:animateright 1.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
+}
+
+#intro_txt_b
+{
+  position: relative;
+  font-size: 26px;
+  width: 220px;
+  background-color: #282b2d;
+  padding-left: 2px;
+  border-left: 1px solid #f1a91f;
+  transition: .4s ease;
+  animation:animateright 1.8s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
+}
+
+#intro_txt_c
+{
+  position: relative;
+  font-size: 16px;
+  width: 280px;
+  background-color: #282b2d;
+  padding-left: 2px;
+  border-left: 1px solid #f1a91f;
+  transition: .4s ease;
+  animation:animateright 1s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}
+}
+
+#intro_txt_a:hover, #intro_txt_b:hover, #intro_txt_c:hover
+{
+  color: #282b2d;
+  background: #f1a91f;
+  padding-left: 20px;
+  transition: .2s ease;
+  border-left: 1px solid #282b2d;
+}
+
+#head_logo_img
+{
+  float: right;
+  opacity: .8;
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+  margin-right: 40px;
+  transition: .2s ease;
+}
+
+.logo_left
+{
+  width: 50%;
+  float: left;
+}
+
+.logo_right
+{
+  width: 50%;
+  float: right;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #f1a91f;
+  border-left: 4px solid #f1a91f;
+}
+
+@media screen and (max-width: 600px)
+{
+  .logo_left, .logo_right
+  {
+    width: 100%;
+  }
+
+  .logo_right
+  {
+    transform: scale(.8);
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #head_logo_img
+  {
+    transform: scale(.8);
+    float: left;
+    opacity: .8;
+    margin-left: 5%;
+  }
+}
+
+/*---------intro end------------*/
+
+
+/*---------solutions begin------------*/
+
+.solutions_head
+{
+  overflow: auto;
+  padding: 20px;
+  background-color: #232729;
+}
+
+.solutions_body
+{
+  border-bottom: 1px solid #f1a91f;
+  overflow: auto;
+  padding: 20px;
+  background-color: #232729;
+}
+
+.column_head_a
+{
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  background-color: #232729;
+}
+
+.column_head_b
+{
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  background-color: #232729;
+}
+
+.nav_a
+{
+  position: relative;
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+  background-color: #282b2d;
+  transition: .4s ease;
+  border: 1px solid #282b2d;
+  animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
+}
+
+.overlay
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #232729;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .4s ease;
+}
+
+.nav_a:hover .overlay
+{
+  height: 100%;
+  padding: 20px;
+}
+
+.nav_a:hover
+{
+  border: 1px solid #282b2d;
+  border-top: 1px solid #f1a91f;
+}
+
+.nav_txt
+{
+  position: relative;
+  z-index: 100;
+  transition: .4s ease;
+}
+
+.nav_txt:link, :visited
+{
+  text-decoration: none;
+}
+
+
+.nav_a:hover .nav_txt
+{
+  height: 100%;
+  color: #f1a91f;
+  transition: .4s ease;
+}
+
+@media screen and (max-width: 600px)
+{
+  .column_head_a, .column_head_b, .nav_a
+  {
+    width: 100%;
+  }
+}
+
+/*---------solutions end------------*/
+
+
+/*---------solutions_a begin------------*/
+
+.solutions_a_container
+{
+  background-image: url("https://foxbytellc.github.io/bgimg03.jpg");
+  height: auto;
+  /* the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2px 20px #000000;
+  padding-top: 10%;
+  animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
+.solutions_a_head
+{
+  border-bottom: 1px solid #f1a91f;
+  padding: 20px;
+  background-color: #232729;
+  overflow: hidden;
+}
+
+/* Clear floats after the columns */
+.solutions_a_head:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column_a_head_a
+{
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  background-color: #232729;
+}
+
+.column_a_head_b
+{
+  float: right;
+  width: 50%;
+  text-align: right;
+  padding: 20px;
+  padding-left: 10%;
+  background-color: #232729;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.layeredimage_container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 360px;
+  height: 492px;
+  background: rgba(0,0,0,.1);
+  transform: rotate(-30deg) skew(25deg) scale(.8);
+  transition: .5s;
+}
+
+.layeredimage_container img
+{
+  position: absolute;
+  width: 75%;
+  transition: .5s;
+}
+
+.layeredimage_container img:nth-child(4)
+{
+  transform: translate(80px,-80px);
+  opacity: 1;
+}
+
+.layeredimage_container img:nth-child(3)
+{
+  transform: translate(60px,-60px);
+  opacity: .8;
+}
+
+.layeredimage_container img:nth-child(2)
+{
+  transform: translate(40px,-40px);
+  opacity: .6;
+}
+
+.layeredimage_container img:nth-child(1)
+{
+  transform: translate(20px,-20px);
+  opacity: .4;
+}
+
+@media screen and (max-width: 600px)
+{
+  .column_a_head_a, .column_a_head_b
+  {
+    width: 100%;
+  }
+
+  .layeredimage_container
+  {
+    transform: rotate(-30deg) skew(25deg) scale(.6);
+  }
+}
+
+/*---------solutions_a end------------*/
+
+
+/*---------solutions_b begin------------*/
+
+.solutions_b_container
+{
+  background-image: url("https://foxbytellc.github.io/bgimg02.jpg");
+  height: auto;
+  /* the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2px 20px #000000;
+  padding-top: 10%;
+  animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
+.solutions_b_head
+{
+  border-bottom: 1px solid #f1a91f;
+  padding: 20px;
+  background-color: #232729;
+  overflow: hidden;
+}
+
+/* Clear floats after the columns */
+.solutions_b_head:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column_b_head_a
+{
+  float: right;
+  width: 50%;
+  text-align: right;
+  padding: 20px;
+  background-color: #232729;
+}
+
+.column_b_head_b
+{
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  padding-left: 10%;
+  background-color: #232729;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px)
+{
+  .column_b_head_a, .column_b_head_b
+  {
+    width: 100%;
+  }
+}
+
+/*---------solutions_b end------------*/
+
+
+/*---------solutions_c begin------------*/
+
+.solutions_c_container
+{
+  background-image: url("https://foxbytellc.github.io/bgimg03.jpg");
+  height: auto;
+  /* the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2px 20px #000000;
+  padding-top: 10%;
+  animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
+.solutions_c_head
+{
+  border-bottom: 1px solid #f1a91f;
+  padding: 20px;
+  background-color: #232729;
+  overflow: hidden;
+}
+
+/* Clear floats after the columns */
+.solutions_c_head:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column_c_head_a
+{
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  background-color: #232729;
+}
+
+.column_c_head_b
+{
+  float: right;
+  width: 50%;
+  text-align: right;
+  padding: 20px;
+  padding-left: 10%;
+  background-color: #232729;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px)
+{
+  .column_c_head_a, .column_c_head_b
+  {
+    width: 100%;
+  }
+}
+
+/*---------solutions_c end------------*/
+
+
+/*---------solutions_d begin------------*/
+
+.solutions_d_container
+{
+  background-image: url("https://foxbytellc.github.io/bgimg02.jpg");
+  height: auto;
+  /* the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2px 20px #000000;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
+.solutions_d_head
+{
+  border-bottom: 1px solid #f1a91f;
+  padding: 20px;
+  background-color: #232729;
+  overflow: hidden;
+}
+
+/* Clear floats after the columns */
+.solutions_d_head:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column_d_head_a
+{
+  float: right;
+  width: 50%;
+  text-align: right;
+  padding: 20px;
+  background-color: #232729;
+}
+
+.column_d_head_b
+{
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  padding-left: 10%;
+  background-color: #232729;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px)
+{
+  .column_d_head_a, .column_d_head_b
+  {
+    width: 100%;
+  }
+}
+
+/*---------solutions_d end------------*/
+
+
+/*---------social begin------------*/
+
+.footer
+{
+  overflow: auto;
+  padding: 5%;
+  background-color: #232729;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.footer_p
+{
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.footer_img
+{
+  margin-top: 4%;
+}
+
+.social
+{
+  border-top: 4px solid #282b2d;
+  padding-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.social_body
+{
+  position: relative;
+}
+
+.btn01
+{
+  display: inline-block;
+  width: 54px;
+  height: 54px;
+  background: #282b2d;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #000000;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #f1a91f;
+  transition: .6s ease;
+}
+
+.btn01:hover
+{
+  border: 1px solid #282b2d;
+}
+
+.btn01 img
+{
+  transition: 0.2s linear;
+}
+
+.btn01:hover img
+{
+  transform: scale(1.1);
+}
+
+.btn01::before
+{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #d35400;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+
+.btn01:hover::before
+{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+@keyframes aaa
+{
+  0%
+  {
+    left: -110%;
+    top: 90%;
+  }
+  50%
+  {
+    left: 10%;
+    top: -30%;
+  }
+  100%
+  {
+    left: -10%;
+    top: -10%;
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  .social
+  {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+/*---------social end------------*/
+
+
+/*--designed and created by Joshua Manley--*/
